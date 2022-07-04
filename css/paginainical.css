@@ -1,0 +1,128 @@
+
+.terceito_container .subcontainer h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+
+}
+
+.terceito_container{
+    padding: 1rem 2%;
+
+
+
+}
+.terceito_container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.terceito_container .subcontainer hr{
+    background: #D9376E;
+    height: 0.4rem;
+    width: 3rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.terceito_container .subcontainer{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.terceito_container .imagem{
+    position: relative;
+}
+
+.terceito_container .imagem span{
+    position: absolute;
+    background-color: #D9376E;
+    color: white;
+    font-size: 1.3em;
+    padding: 0.2rem 1rem;
+}
+.terceito_container .precos span:first-child{
+    font-size: 1.5rem;
+}
+.terceito_container .precos span:last-child{
+    text-decoration:line-through;
+    font-size: 1.1rem;
+}
+
+.terceito_container .informacao{
+    text-align: center;
+}
+
+.terceito_container .informacao a{
+    background-color: #0D0D0D;
+    padding: 0.5rem 1.8rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.terceito_container .stars i{
+    color: #D9376E;
+}
+.terceito_container .stars{
+    padding: 0.5rem 0 0.3rem;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem;
+  color: #222;
+}
+.slider img{
+    width: 100%;
+}
+.segundo_container input{
+    display: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    width: 300%;
+
+}
+.banner{
+    width: 33.33%;
+}
+
+#slider1:checked ~ .b1{
+    margin-left: 0;
+}
+#slider2:checked ~ .b1{
+    margin-left: -33.33%;
+}
+#slider3:checked ~ .b1{
+    margin-left: -66.66%;
+}
+.navegar{
+    display: none;
+    justify-content: center;
+}
+.navegar .bar{
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    border: solid 2px #D9376E;
+    border-radius: 50%;
+}
+.navegar .bar:hover{
+    background-color: #D9376E;
+}
+
+
+
+
+
+
+
+
